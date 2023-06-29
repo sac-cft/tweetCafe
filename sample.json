@@ -1,0 +1,61 @@
+{
+    "_maxResultsWhenFetchLast": 100,
+    "_realData": {
+        "data": [
+            {
+                "id": "1673667991907565570",
+                "text": "Hey folks \n#craftech360",
+                "author_id": "825232684121100288",
+                "edit_history_tweet_ids": ["1673667991907565570"]
+            },
+            {
+                "id": "1673667936551157760",
+                "text": "#craftech360 creating",
+                "author_id": "963690380",
+                "edit_history_tweet_ids": ["1673667936551157760"]
+            }
+        ],
+        "includes": {
+            "users": [
+                {
+                    "id": "825232684121100288",
+                    "name": "Pradeep Zille",
+                    "username": "pradeepzille1"
+                },
+                {
+                    "id": "963690380",
+                    "name": "Ravi Pujari",
+                    "username": "imravipujari"
+                }
+            ]
+        },
+        "meta": {
+            "newest_id": "1673667991907565570",
+            "oldest_id": "1673667936551157760",
+            "result_count": 2
+        }
+    },
+    "_rateLimit": { "limit": 60, "remaining": 58, "reset": 1688026299 },
+    "_instance": {
+        "_currentUser": null,
+        "_currentUserV2": null,
+        "_requestMaker": {
+            "rateLimits": {
+                "https://api.twitter.com/2/tweets/search/recent": {
+                    "limit": 60,
+                    "remaining": 58,
+                    "reset": 1688026299
+                }
+            },
+            "clientSettings": {},
+            "bearerToken": "AAAAAAAAAAAAAAAAAAAAAGXEoQEAAAAAe9vnftE8zs2S%2FAHqCM79p6bFUkA%3D6MfAId2qEunWHWSzIvNLsKCCdk8Brtl3RkoSnQrpoiOxBG9YXH"
+        },
+        "_prefix": "https://api.twitter.com/2/"
+    },
+    "_queryParams": {
+        "query": "craftech360",
+        "expansions": "referenced_tweets.id.author_id",
+        "start_time": "2023-06-27T07:57:09.524Z"
+    },
+    "_endpoint": "tweets/search/recent"
+}
